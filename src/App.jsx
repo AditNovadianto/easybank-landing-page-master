@@ -6,13 +6,13 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Navbar />
       <Home />
       <Benefits />
       <Articles />
       <Footer />
-    </div>
+    </main>
   );
 };
 
